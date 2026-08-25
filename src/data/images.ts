@@ -20,7 +20,7 @@ export const images: Record<string, SiteImage> = {
   cloud: {
     id: "cloud",
     src: "/images/editorial/artificial-cloud-study.png",
-    alt: "Editorial study of weathered monumental steel public art against the Tulsa sky.",
+    alt: "Weathered monumental steel public art against the Tulsa sky.",
     credit: "Original AI-assisted editorial illustration",
     license: "Project-owned development artwork",
     productionApproved: false,

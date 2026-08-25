@@ -87,7 +87,6 @@ export default function HomePage() {
       <section className="cloud-feature">
         <div className="cloud-image-wrap">
           <Image src={images.cloud.src} alt={images.cloud.alt} fill quality={60} sizes="(max-width: 900px) 100vw, 50vw" className="cloud-image" />
-          <span className="image-dev-label">Editorial study · development image</span>
         </div>
         <div className="cloud-copy">
           <span className="section-index">03 / THEN LOOK UP</span>
