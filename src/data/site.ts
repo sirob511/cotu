@@ -2,7 +2,7 @@ export const site = {
   name: "Center of the Universe Tulsa",
   descriptor: "The independent guide to Tulsa's strangest landmark.",
   url: "https://centeroftheuniversetulsa.org",
-  publisher: "CenterOfTheUniverseTulsa.org",
+  publisher: "CenterOfTheUniverseTulsa.org Visitor Guide",
 };
 
 export const cotu = {

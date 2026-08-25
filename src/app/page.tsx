@@ -7,14 +7,38 @@ import { OrbitMap } from "@/components/OrbitMap";
 import { StatusPanel } from "@/components/StatusPanel";
 import { WeatherChip } from "@/components/WeatherChip";
 import { attractions } from "@/data/attractions";
-import { cotu, directionsUrl, googleMapsUrl } from "@/data/site";
+import { cotu, directionsUrl, googleMapsUrl, site } from "@/data/site";
 import { siteStatus } from "@/data/site-status";
 import { images } from "@/data/images";
 
+const homeTitle = "Center of the Universe Tulsa | Visitor Guide";
+const homeDescription = "Visit Tulsa's Center of the Universe, the downtown acoustic anomaly where your voice echoes back in a strange new way. Get current access status, directions, parking, history, maps and nearby attractions.";
+
 export const metadata: Metadata = {
-  title: "Center of the Universe Tulsa | Visitor Guide",
-  description: "Visit Tulsa's Center of the Universe, the downtown acoustic anomaly where your voice echoes back in a strange new way. Get current access status, directions, parking, history, maps and nearby attractions.",
-  alternates: { canonical: "https://centeroftheuniversetulsa.org" },
+  title: homeTitle,
+  description: homeDescription,
+  alternates: { canonical: site.url },
+  openGraph: {
+    title: homeTitle,
+    description: homeDescription,
+    url: site.url,
+    siteName: site.name,
+    type: "website",
+    images: [
+      {
+        url: images.hero.src,
+        width: 1680,
+        height: 945,
+        alt: images.hero.alt,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: homeTitle,
+    description: homeDescription,
+    images: [images.hero.src],
+  },
 };
 
 const nearby = attractions.filter((item) => ["guthrie-green", "bob-dylan-center", "woody-guthrie-center", "greenwood-rising", "cains-ballroom"].includes(item.slug));
