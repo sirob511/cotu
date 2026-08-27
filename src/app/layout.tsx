@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Serif_Display, Manrope, Space_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { StatusBar } from "@/components/StatusBar";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteFooter />
         <JsonLd data={[websiteSchema, publisherSchema, attractionSchema]} />
       </body>
+      <GoogleAnalytics gaId="G-GR83XS5YKQ" />
     </html>
   );
 }
