@@ -2,8 +2,10 @@ export const siteStatus = {
   status: "temporarily-closed",
   label: "Temporarily closed for renovation",
   shortLabel: "Under renovation",
-  expected: "Fall 2026",
-  lastVerified: "2026-08-25",
+  expected: "Fall 2027",
+  phase:
+    "Structural bridge repairs are complete. The $7 million plaza rebuild breaks ground November 16, 2026.",
+  lastVerified: "2026-11-06",
   expiresAfterDays: 45,
   source:
     "https://downtowntulsa.com/about/programs-and-initiatives/urban-planning/centeroftheuniverse",

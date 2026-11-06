@@ -129,7 +129,7 @@ export default function HomePage() {
         </div>
         <div className="shell renovation-grid">
           <div className="renovation-list">
-            <span><b>01</b> Structural bridge repairs</span>
+            <span><b>01</b> Structural bridge repairs (complete)</span>
             <span><b>02</b> New paths and lighting</span>
             <span><b>03</b> Landscape and green space</span>
             <span><b>04</b> Preserved acoustic walls</span>

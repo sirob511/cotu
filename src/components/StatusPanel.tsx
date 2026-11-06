@@ -9,7 +9,7 @@ export function StatusPanel({ compact = false }: { compact?: boolean }) {
       <div>
         <span className="eyebrow">Current access</span>
         <h2>{siteStatus.label}</h2>
-        <p>The bridge and plaza are under active rehabilitation. Expected completion is {siteStatus.expected}, subject to the project schedule. Verify before setting out.</p>
+        <p>{siteStatus.phase} Downtown Tulsa Partnership expects the new public space to be done by {siteStatus.expected.toLowerCase()}, subject to the project schedule. The plaza stays barricaded until then.</p>
         <div className="status-meta">
           <span><CalendarDays size={15} /> Checked {siteStatus.lastVerified}</span>
           <a href={siteStatus.source} target="_blank" rel="noreferrer">Official project source <ExternalLink size={14} /></a>

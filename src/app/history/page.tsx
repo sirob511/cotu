@@ -2,7 +2,7 @@ import { ArticleHero } from "@/components/ArticleHero";
 import { ArticleSection, ArticleShell, NextLinks, SourceNote } from "@/components/ArticleBlocks";
 import { pageMetadata } from "@/lib/seo";
 
-export const metadata = pageMetadata("History of the Center of the Universe in Tulsa", "From a 1930s road bridge to a fire, pedestrian rebuild, accidental echo, public art and 2024–2026 rehabilitation: the history of Tulsa's Center of the Universe.", "/history");
+export const metadata = pageMetadata("History of the Center of the Universe in Tulsa", "From a 1930s road bridge to a fire, pedestrian rebuild, accidental echo, public art and 2024–2027 rehabilitation: the history of Tulsa's Center of the Universe.", "/history");
 
 const timeline = [
   ["1930s", "A bridge for cars", "The original Boston Avenue bridge carried vehicles across Tulsa's railroad tracks."],
@@ -10,7 +10,7 @@ const timeline = [
   ["After the rebuild", "An accidental discovery", "The acoustic behavior emerged from the new geometry rather than a documented plan to build a mystery spot."],
   ["1991", "Artificial Cloud arrives", "Robert Haozous's monumental steel sculpture added another layer of strangeness and public meaning."],
   ["2019–2022", "Reimagining begins", "Planning and design work explored a more welcoming public space while studying the acoustic phenomenon."],
-  ["2024–2026", "Repair and renewal", "Structural bridge work began, followed by the planned above-deck transformation."],
+  ["2024–2027", "Repair and renewal", "City structural repairs ran from December 2024 into 2026. The $7 million above-deck plaza rebuild breaks ground November 16, 2026, with completion expected by fall 2027."],
 ] as const;
 
 export default function HistoryPage() {

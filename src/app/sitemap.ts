@@ -22,7 +22,7 @@ const paths = [
 export default function sitemap(): MetadataRoute.Sitemap {
   return paths.map((path) => ({
     url: `${site.url}${path}`,
-    lastModified: "2026-08-25",
+    lastModified: "2026-11-06",
     changeFrequency: path === "/renovation" ? "weekly" : path === "" ? "monthly" : "yearly",
     priority: path === "" ? 1 : path === "/renovation" || path === "/visit" ? 0.9 : 0.7,
   }));
