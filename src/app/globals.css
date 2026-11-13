@@ -579,28 +579,3 @@ img { max-width: 100%; }
   .not-found h1 { font-size: 66px; }
   .not-found-rings { opacity: .38; right: -400px; }
 }
-
-.editorial-photo-credit {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  margin: 0;
-  padding: 12px 16px;
-  background: rgba(10, 13, 18, .85);
-  color: #fff;
-  font-size: 12px;
-  line-height: 1.5;
-}
-.editorial-photo-credit a { text-decoration: underline; }
-
-.editorial-photo-credit-inline {
-  margin: 0;
-  padding: 12px 20px;
-  background: var(--ink);
-  color: #fff;
-  font-size: 12px;
-  line-height: 1.5;
-}
-.editorial-photo-credit-inline a { text-decoration: underline; }

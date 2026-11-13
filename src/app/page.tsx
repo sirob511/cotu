@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: images.hero.src,
-        width: 885,
-        height: 1024,
+        width: 1680,
+        height: 945,
         alt: images.hero.alt,
       },
     ],
@@ -76,8 +76,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <p className="editorial-photo-credit-inline">Downtown Tulsa · <a href={images.hero.source}>Photo: {images.hero.credit}</a> · Public domain</p>
-
       <section id="experience" className="home-intro">
         <div className="shell home-intro-grid">
           <span className="section-index">THE INDEPENDENT GUIDE TO TULSA&apos;S STRANGEST LANDMARK</span>
@@ -113,7 +111,6 @@ export default function HomePage() {
       <section className="cloud-feature">
         <div className="cloud-image-wrap">
           <Image src={images.cloud.src} alt={images.cloud.alt} fill quality={60} sizes="(max-width: 900px) 100vw, 50vw" className="cloud-image" />
-          <p className="editorial-photo-credit">Downtown Tulsa · <a href={images.cloud.source}>Photo: {images.cloud.credit}</a> · Public domain</p>
         </div>
         <div className="cloud-copy">
           <span className="section-index">03 / THEN LOOK UP</span>

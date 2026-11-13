@@ -26,6 +26,7 @@ export const attractionSchema = {
   description:
     "A downtown Tulsa civic space known for an unusual echo at the center of a circular brick plaza.",
   mainEntityOfPage: site.url,
+  image: `${site.url}/images/editorial/cotu-circle-blue-hour.png`,
   address: {
     "@type": "PostalAddress",
     streetAddress: "1 S Boston Ave",
