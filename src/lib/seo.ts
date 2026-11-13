@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { images } from "@/data/images";
 import { site } from "@/data/site";
 
 export function pageMetadata(
@@ -19,10 +20,10 @@ export function pageMetadata(
       type: "website",
       images: [
         {
-          url: "/images/editorial/cotu-circle-blue-hour.png",
-          width: 1680,
-          height: 945,
-          alt: "Center of the Universe Tulsa editorial illustration",
+          url: images.hero.src,
+          width: 885,
+          height: 1024,
+          alt: images.hero.alt,
         },
       ],
     },
@@ -30,7 +31,7 @@ export function pageMetadata(
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/editorial/cotu-circle-blue-hour.png"],
+      images: [images.hero.src],
     },
   };
 }
