@@ -1,3 +1,4 @@
+import { images } from "@/data/images";
 import { cotu, site } from "@/data/site";
 
 export const websiteSchema = {
@@ -26,7 +27,7 @@ export const attractionSchema = {
   description:
     "A downtown Tulsa civic space known for an unusual echo at the center of a circular brick plaza.",
   mainEntityOfPage: site.url,
-  image: `${site.url}/images/editorial/cotu-circle-blue-hour.png`,
+  image: `${site.url}${images.hero.src}`,
   address: {
     "@type": "PostalAddress",
     streetAddress: "1 S Boston Ave",

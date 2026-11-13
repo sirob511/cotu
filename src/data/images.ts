@@ -11,10 +11,9 @@ export type SiteImage = {
 export const images: Record<string, SiteImage> = {
   hero: {
     id: "hero",
-    src: "/images/editorial/cotu-circle-blue-hour.png",
-    alt: "Editorial illustration of the brick acoustic circle and steel public art above downtown Tulsa railroad tracks at blue hour.",
-    credit: "Original AI-assisted editorial illustration",
-    license: "Project-owned development artwork",
+    src: "/images/editorial/center-of-the-universe-tulsa.jpg",
+    alt: "The brick acoustic circle at Tulsa's Center of the Universe, with Union Depot and downtown buildings behind it.",
+    license: "User-supplied photograph; reuse rights not verified.",
     productionApproved: false,
   },
   cloud: {
