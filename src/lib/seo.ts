@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { images } from "@/data/images";
 import { site } from "@/data/site";
+import { socialImage } from "@/data/social-image";
 
 export function pageMetadata(
   title: string,
@@ -18,20 +18,13 @@ export function pageMetadata(
       url,
       siteName: site.name,
       type: "website",
-      images: [
-        {
-          url: images.hero.src,
-          width: 800,
-          height: 600,
-          alt: images.hero.alt,
-        },
-      ],
+      images: [socialImage],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [images.hero.src],
+      images: [socialImage],
     },
   };
 }
